@@ -10,7 +10,11 @@ greaterThan(20, 4) => 20
 greaterThan(5, 15) => 15
 
 */
-
+function greaterThan(num1, num2){
+  if(num1 > num2){
+    return num2
+  }
+}
 
 
 
@@ -29,7 +33,11 @@ lessThan(20, 4) => 20
 lessThan(5, 15) => 15
 
 */
-
+function lessThan(num1, num2){
+  if(num1 > num2){
+    return num2
+  }
+}
 
 
 
@@ -66,7 +74,11 @@ counter(6) => 0 1 2 3 4 5 6
 counter(10) => 0 1 2 3 4 5 6 7 8 9 10
 
 */
-
+function counter(num) {
+  for (var i = 0; i <=; i++){
+    console.log(i)
+  }
+}
 
 
 
